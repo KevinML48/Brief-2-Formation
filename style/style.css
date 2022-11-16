@@ -1,0 +1,80 @@
+.titre{
+    font-size: 75px;
+    font-family: 'Montserrat', sans-serif;
+}
+.text_logo{
+    font-size: large;
+    color: red;
+}
+.onglet{
+    display: flex;
+}
+.date{
+        border: 2px solid black;
+        width: 50%;
+    }
+.destination{
+    border: 2px solid black;
+    width: 50%;
+}
+.personnes{
+    border: 2px solid black;
+    width: 50%;
+}
+.img_text_principal{
+    color: aliceblue;
+    position:absolute;
+    top: 360px; 
+    width:50%; 
+    z-index:1;
+    font-size:50px;
+    margin: 15%;
+}
+.deuxieme_text_img{
+    font-size: 20px;
+}
+.child1{
+    display: flex;
+    right: 10px;
+    position: absolute;
+    width: 50px;
+    height: 5%;
+}
+.child2{
+    color: red;
+    display: flex;
+    z-index: 1;
+    margin: -10px;
+    border-radius: 10px;
+    margin: 7px;
+    font-size: 25px;
+    right: 50px;
+}
+.text_child2{
+    display: flex;
+    position: relative;
+}
+.text_bouton{
+    right: 15%;
+    color: white;
+}
+.bouton_img_principal{
+    border-radius: 4em;
+    background-color: blue;
+    width: 40%;
+    display: flex;
+}
+.titre_card{
+    font-size: 45px;
+}
+.text_card{
+    font-size: 35px;
+}
+.sous_titre_card{
+    font-size: 25px;
+}
+.content_card{
+    display: flex;
+    justify-content: center;
+    height: 350px;
+}
